@@ -237,23 +237,7 @@
             min-height: 80px;
         }
         
-        #share-button {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 10px;
-            padding: 12px 20px;
-            font-size: 1.1rem;
-            font-weight: 600;
-            color: white;
-            /* Changed background color to match theme */
-            background-color: var(--magenta);
-            border: none;
-            border-radius: 50px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            /* Changed shadow color to match theme */
-            box-shadow: 0 0 15px var(--magenta);
+        #
         }
         
         #share-button:hover {
@@ -270,6 +254,28 @@
 
 
         /* --- 4. Continuous Celebration Effects --- */
+      
+    #share-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    background-color: var(--magenta);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 15px var(--magenta);
+    position: fixed;
+    bottom: 570px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    }
         #effects-container {
             position: absolute;
             top: 0;
